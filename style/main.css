@@ -1,0 +1,569 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/modestic-sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lemon&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lemon-milk');
+
+
+:root {
+    --fs-f:40px;
+    --fs-xxsm: 12px;
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    
+    --fs-xxmd: 20px;
+    --fs-xmd: 24px;
+    --fs-md: 32px;
+
+    --fs-xlg:36px;
+    --fs-lg:80px;
+
+    --fw-sm:400;
+    --fw-md:500;
+    --fw-lg:700;
+
+    --ff-l:'Lemon Milk';
+    --ff-i:'Inter';
+    --ff-m:'Moderustic';
+  }
+
+.btn {
+    background: none;
+    border: none;
+    font-size: var(--fs-sm);
+    font-family: var(--ff-m);
+    font-weight: var(--fw-lg);
+    padding: 5px;
+    display: inline-block;
+    background: white;
+    color: black ;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+html {
+    background: url("../img/222a0332bd69330e9ac4109495a420ca.jpg") no-repeat center center fixed ;
+    background-size: cover;
+}
+
+* {
+    color: white;
+}
+
+nav {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+header {
+    padding: 20px;
+
+}
+
+a {
+   text-decoration: none;
+}
+
+span {
+    display: block;
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    font-family: var(--ff-l);
+    font-size: var(--fs-xxmd);
+    font-weight: var(--fw-md);
+}
+
+.btn-main {
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    font-family: var(--ff-m);
+    font-size: var(--fs-xsm);
+    font-weight: var(--fw-sm);
+}
+
+
+a:hover {
+    opacity: 0.5;
+}
+
+.title {
+    font-family: var(--ff-l);
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-lg);
+}
+
+.description {
+    font-family: var(--ff-m);
+    font-size: var(--fs-xmd);
+    font-weight: var(--fw-lg);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.logo {
+    font-family: var(--ff-l);
+    font-size: var(--fs-xmd);
+    font-weight: var(--fw-lg);
+}
+
+.subt {
+    font-size: var(--fs-sm);
+   
+    font-weight: var(--fw-sm);
+}
+.moon {
+    display: flex;
+    justify-content: right;
+}
+
+.moon:hover {
+    opacity: 0;
+    transition-duration: 3s;
+    transition-delay:.25s;
+}
+
+.post {
+    position: relative; 
+}
+  
+  
+.post figcaption {
+    position: absolute;
+    top: 35%;
+    right: 100px;
+    background-color: #a4a4a4;
+    opacity: 0.8;
+    width: 50%;
+}
+
+.post img {
+    width: 100%;
+}
+.slider-pictures {
+    position: relative;
+}
+
+.slider {
+    margin-top: 50px;
+}
+
+
+.picture {
+    display: none;
+}
+.picture img { 
+    width: 100%;
+}
+.active {
+    display: block;
+}
+.about {
+    text-align: center;
+    font-family: var(--ff-l);
+}
+.college-info {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title {
+    font-family: var(--ff-m);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-lg);
+}
+
+.college-info h4 {
+    font-weight: var(--fw-md);
+    font-size: var(--fs-xlg);
+    line-height: 68px;
+}
+.college-info p {
+    line-height: 45px;
+    font-size: var(--fs-xmd);
+    font-weight: var(--fw-sm);
+}
+.college-info div {
+    margin-left: 10px;
+}
+
+footer {
+    font-size: var(--fs-sm);
+    font-family: var(--ff-i);
+    font-weight: var(--fw-md);
+    margin: 20px;
+    padding: 20px;
+}
+.foot-list {
+    display: flex;
+    gap: 10px;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+address {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    cursor: pointer;
+}
+
+address img {
+    width: 14px;
+    margin-right: 5px;
+}
+.events h2 {
+    font-size: var(--fs-md);
+    font-family: var(--ff-l);
+    font-weight: var(--fw-lg);
+    padding-bottom: 10px;
+}
+figcaption {
+    font-family: var(--ff-m);
+    font-weight: var(--fw-lg);
+}
+figcaption h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: var(--fs-xlg);
+}
+figcaption p {
+    font-size: var(--fs-xxmd);
+}
+figcaption span {
+    font-size: var(--fs-sm);
+}
+figcaption {
+    padding: 20px;
+}
+
+
+.slider {
+    position: relative;
+}
+
+.left,.right {
+    position: absolute;
+    top: 50%;
+ 
+    cursor: pointer;
+}
+
+.right {
+    right: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.nav-header {
+    margin-bottom:100px;
+}
+
+.on-foot {
+    margin-top: 50px;
+    font-family: var(--ff-l);
+    font-size: var(--fs-xxmd);
+    font-weight: var(--fw-lg);
+    text-align: center;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/modestic-sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Moderustic:wght@300..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lemon-milk');
+
+:root {
+    --fs-f: 40px;
+    --fs-xxsm: 12px;
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-xxmd: 20px;
+    --fs-xmd: 24px;
+    --fs-md: 32px;
+    --fs-xlg: 36px;
+    --fs-lg: 80px;
+
+    --fw-sm: 400;
+    --fw-md: 500;
+    --fw-lg: 700;
+
+    --ff-l: 'Lemon Milk', sans-serif;
+    --ff-i: 'Inter', sans-serif;
+    --ff-m: 'Moderustic', sans-serif;
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+html {
+    background: url("../img/222a0332bd69330e9ac4109495a420ca.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    font-family: var(--ff-l);
+    font-size: var(--fs-xxmd);
+    font-weight: var(--fw-md);
+}
+
+.btn {
+    background: white;
+    border: none;
+    color: black;
+    padding: 5px;
+    font-size: var(--fs-sm);
+    font-family: var(--ff-m);
+    font-weight: var(--fw-lg);
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-main {
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    font-family: var(--ff-m);
+    font-size: var(--fs-xsm);
+    font-weight: var(--fw-sm);
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.title {
+    font-family: var(--ff-l);
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-lg);
+}
+
+.description {
+    font-family: var(--ff-m);
+    font-size: var(--fs-xmd);
+    font-weight: var(--fw-lg);
+    margin: 10px 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff-l);
+    font-size: var(--fs-xmd);
+    font-weight: var(--fw-lg);
+}
+
+.subt {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-sm);
+}
+
+.moon {
+    display: flex;
+    justify-content: right;
+    transition: opacity 3s ease;
+}
+
+.moon:hover {
+    opacity: 0;
+}
+
+.post {
+    position: relative;
+}
+
+.post figcaption {
+    position: absolute;
+    top: 35%;
+    right: 100px;
+    background-color: rgba(164, 164, 164, 0.8);
+    width: 50%;
+    padding: 20px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.slider {
+    margin-top: 50px;
+}
+
+.picture {
+    display: none;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.active {
+    display: block;
+}
+
+.about {
+    text-align: center;
+    font-family: var(--ff-l);
+}
+
+.college-info {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title {
+    font-family: var(--ff-m);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-lg);
+}
+
+.college-info h4 {
+    font-weight: var(--fw-md);
+    font-size: var(--fs-xlg);
+    line-height: 68px;
+}
+
+.college-info p {
+    line-height: 45px;
+    font-size: var(--fs-xmd);
+    font-weight: var(--fw-sm);
+}
+
+footer {
+    font-size: var(--fs-sm);
+    font-family: var(--ff-i);
+    font-weight: var(--fw-md);
+    margin: 20px;
+    padding: 20px;
+}
+
+.foot-list {
+    display: flex;
+    gap: 10px;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+address {
+    display: flex;
+    justify-content: space-between;
+}
+
+address img {
+    width: 14px;
+    margin-right: 5px;
+}
+
+.events h2 {
+    font-size: var(--fs-md);
+    font-family: var(--ff-l);
+    font-weight: var(--fw-lg);
+    padding-bottom: 10px;
+}
+
+figcaption {
+    font-family: var(--ff-m);
+    font-weight: var(--fw-lg);
+}
+
+figcaption h3 {
+    margin: 10px 0;
+    font-size: var(--fs-xlg);
+}
+
+figcaption p {
+    font-size: var(--fs-xxmd);
+}
+
+figcaption span {
+    font-size: var(--fs-sm);
+}
+
+.slider {
+    position: relative;
+}
+
+.left, .right {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.right {
+    right: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.nav-header {
+    margin-bottom: 100px;
+}
+.college-info div {
+   margin-left: 10px;
+}
+.on-foot {
+    margin-top: 50px;
+    font-family: var(--ff-l);
+    font-size: var(--fs-xxmd);
+    font-weight: var(--fw-lg);
+    text-align: center;
+}

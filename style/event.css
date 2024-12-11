@@ -1,0 +1,80 @@
+.home-info div {
+    position: absolute;
+    top: 50%;
+    padding-left: 10px;
+}
+
+.home-info {
+    position: relative;
+}
+
+.home-info p {
+    font-family: var(--ff-l);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-lg);
+    float: right;
+}
+
+.posts img {
+    width: auto;
+}
+.date {
+    font-size: var(--fs-sm);
+}
+.moon {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    left: -20px;
+}
+
+.posts h2 {
+    font-family: var(--ff-l);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-lg);
+    text-align: center;
+}
+.posts span {
+    font-family: var(--ff-l);
+    font-weight: var(--fw-lg);
+    padding-bottom: 10px;
+}
+
+.num {
+    font-size: var(--fs-md);
+}
+
+img {
+    max-width: 100%;
+}
+.pictures {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 50px;
+    font-family: var(--ff-l);
+    font-size: var(--fs-xxmd);
+    font-weight: var(--fw-lg);
+    text-align: left;
+}
+
+.post {
+    display: flex;
+}
+.reversed {
+    flex-direction: row-reverse;
+}
+.astronaut {
+   left: 0;
+}
+.posts article {
+    margin-top: 50px;
+}
+.num-r {
+    display: block;
+    text-align: right;
+    font-size: var(--fs-md);
+}
